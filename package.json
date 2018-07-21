@@ -1,0 +1,24 @@
+{
+  "name": "credisistema-electron",
+  "version": "0.0.1",
+  "dependencies": {},
+  "description": "Sistema de control de pagos para Credifamilia desarrollado en electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpqe/CrediSistema-Electron.git"
+  },
+  "keywords": [
+    "electron",
+    "danielpqe"
+  ],
+  "author": "@danielpqe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielpqe/CrediSistema-Electron/issues"
+  },
+  "homepage": "https://github.com/danielpqe/CrediSistema-Electron#readme"
+}
