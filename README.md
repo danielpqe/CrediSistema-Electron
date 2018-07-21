@@ -1,2 +1,2 @@
 # CrediSistema-Electron
-Sistema de control de pagos para Credifamilia creado en electron
+Sistema de control de pagos para Credifamilia desarrollado en electron
