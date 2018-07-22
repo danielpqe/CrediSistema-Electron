@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/danielpqe/CrediSistema-Electron/issues"
   },
-  "homepage": "https://github.com/danielpqe/CrediSistema-Electron#readme"
+  "homepage": "https://github.com/danielpqe/CrediSistema-Electron#readme",
+  "devDependencies": {
+    "electron": "^2.0.5"
+  }
 }

@@ -6,13 +6,19 @@ let win
 
 function createWindow () {
     // Crea la ventana del navegador.
-    win = new BrowserWindow({width: 800, height: 600})
+    win = new BrowserWindow({
+        width: 800, height: 600,
+        show:false
+    })
+    win.once('ready-to-show',()=>{
+        win.show()
+    })
 
     // y carga el archivo index.html de la aplicación.
     win.loadFile('index.html')
 
     // Open the DevTools.
-    win.webContents.openDevTools()
+   // win.webContents.openDevTools()
 
     // Emitido cuando la ventana es cerrada.
     win.on('closed', () => {
@@ -21,6 +27,8 @@ function createWindow () {
         // cuando tu deberías borrar el elemento correspiente.
         win = null
     })
+
+    win.loadURL('http://devdocs.io/')
 }
 
 // Este método será llamado cuando Electron haya terminado
